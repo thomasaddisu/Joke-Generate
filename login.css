@@ -1,0 +1,34 @@
+form{
+    background-color: rgb(7, 95, 95);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: cente;
+    gap: 10px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+label{
+    color: white;
+    font-size: 18px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#but{
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#but:hover{
+    background-color: #2e59d9;
+}

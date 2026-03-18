@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li ><a href="/index.html">HOME</a></li>
+      </ul>
+    </nav>
+    <form action="backEnd.php" method="post">
+        <label for="name">FullName:</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+        <label for="email" >Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        <select name="userType" id="">
+            <option value="admin">Admin</option>
+            <option value="user">User</option>
+        </select>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <label for="profilePicture">Profile Picture</label>
+        <input type="file" name="profilePicture" id="profilePicture" accept="image/*">
+        <button id="but" type="submit">SignUp</button>
+        <a href="/login.html">Login</a>
+    </form>
+  </body>
+</html>
